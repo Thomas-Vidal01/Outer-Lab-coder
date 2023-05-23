@@ -1,0 +1,242 @@
+//----------INDEX----------//
+main{
+    .hero{
+        background-image: url("../images/imagenes-del-espacio-exterior-sp.jpg");
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        color: white;
+        background-attachment: fixed;
+        border: 2px solid black;
+    
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 45px;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .bienvenidos{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 60px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            img{
+                margin-left: 50px;
+                width: 300px;
+                height: 250px;
+                box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+            -webkit-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+            -moz-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+            
+                display: flex;
+                flex-direction: column;
+            }
+            p{
+                margin: 100px;
+            }
+        }
+    }
+    .preguntas{
+        h2{
+            font-size: 45px;
+            margin-top: 80px;
+            text-align: center;
+        }
+        .contenedor-gridpreguntas{
+            display: grid;
+            grid-template-rows: 350px 350px 350px;
+            grid-template-columns: auto auto;
+            gap: 50px;
+            div{
+                border: solid black 2px;
+                font-size: 20px;
+                padding: 50px;
+                text-align: center;
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 50px;
+                }
+            }
+        }
+    }
+}
+
+//----------TEORIAS----------//
+
+main{
+    .teoria{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        div{
+            .img-texto{
+                @include flex (flex, center, column);
+                img{
+                    width: 350px;
+                    height: 200px;
+                    margin-bottom: 15px;
+                    margin-top: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border: black 1px solid;
+                    object-fit: cover;
+                    box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                -webkit-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                -moz-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                }
+                p{
+                    margin-left: 50px;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}
+
+//----------CURIOSIDADES----------//
+
+.curiosidades{
+    .contenedor-lista{
+        .lista-curiosidades{
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            margin: 40px;
+            ul{
+                li{
+                    list-style-type: circle;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+//----------PARADOJAS----------//
+
+main{
+    .paradoja{
+        .contenedor-paradoja{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            div{
+                border-radius: 10px;
+                padding: 40px;
+                box-sizing: border-box;
+                background-color: #eeee;
+                img{
+                    width: 400px;
+                    height: 250px;
+                    box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                    -webkit-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                    -moz-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                }
+            }
+        }
+    }
+}
+
+//----------CIENTIFICOS----------//
+
+main{
+    .cientificos{
+        .titulo-texto{
+            @include flex (flex, center, column);
+            h3{
+                @include flex (flex, center, column);
+                img{
+                    width: 250px;
+                    height: 250px;
+                    margin-bottom: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border: black 1px solid;
+                    object-fit: cover;
+                    box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                -webkit-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                -moz-box-shadow: 13px 14px 18px -1px rgba(0,0,0,0.81);
+                }
+            }
+            p{
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+//----------CONTACTANOS----------//
+
+.presentacion{
+    .registro{
+        margin: 100px;
+        border: black solid 2px ;
+        padding: 30px;
+        background-color: rgba(98, 96, 96, 0.271);
+        form{
+            .boton-iniciosesion{
+                background-color: #7A2B7A;
+            }
+        }
+    }
+}
+
+//----------OUTERLAB----------//
+
+.indice{
+    .presentacion-outerlab{
+        p{
+            display: flex;
+            text-align: center;
+            margin: 60px;
+            font-size: 25px;
+            margin-left: auto;
+        }
+    }
+    .division{
+        div{
+            margin-top: 40px;
+            h3{
+                font-size: 35px;
+                margin-left: 12%;
+            }
+            ul{
+                li{
+                    margin-left: 15%;
+                    font-size: 30px;
+                    font-family: 'Dongle', sans-serif;
+                    list-style-type: decimal;
+                }
+            }
+        }
+    }
+}
+
+//----------ACERCA DE NOSOTROS----------//
+.acercadenos{
+    height: 600px;
+}

@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 45px;
+  margin-top: 50px;
+  text-align: center;
+  color: #6F156F;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: black 0px 0px 5px, black 0px 0px 10px, black 0px 0px 15px, violet 0px 0px 20px, violet 0px 0px 40px;
+  animation-name: tituloslide;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: initial;
+  animation-iteration-count: initial;
+  animation: tituloslide 1.5s ease-in-out initial infinite; }
+
+@keyframes tituloslide {
+  from {
+    margin-left: 100%;
+    width: 200%; }
+  to {
+    margin-left: 0;
+    width: 100%; } }
+
+h3 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px; }
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding: 10px 0;
+  width: 90%; }
+
+.presentacion p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+img {
+  transition: 1s; }
+  img:hover {
+    transform: scale(1.2); }
+
+header {
+  height: 100%;
+  background-color: #7A2B7A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: black 2px solid; }
+  header h1 a {
+    color: black;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding-left: 20px; }
+  header nav ul li {
+    display: flex;
+    display: inline-block; }
+    header nav ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      transition: 0.5s;
+      display: flex;
+      flex-direction: column; }
+      header nav ul li a:hover {
+        background-color: white; }
+
+main .hero {
+  background-image: url("../images/imagenes-del-espacio-exterior-sp.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column; }
+  main .hero h2 {
+    font-size: 45px;
+    margin-top: 50px; }
+  main .hero p {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif; }
+
+main .bienvenidos {
+  display: flex;
+  flex-direction: column; }
+  main .bienvenidos h2 {
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center; }
+  main .bienvenidos .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    main .bienvenidos .contenedor img {
+      margin-left: 50px;
+      width: 300px;
+      height: 250px;
+      box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      display: flex;
+      flex-direction: column; }
+    main .bienvenidos .contenedor p {
+      margin: 100px; }
+
+main .preguntas h2 {
+  font-size: 45px;
+  margin-top: 80px;
+  text-align: center; }
+
+main .preguntas .contenedor-gridpreguntas {
+  display: grid;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: auto auto;
+  gap: 50px; }
+  main .preguntas .contenedor-gridpreguntas div {
+    border: solid black 2px;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center; }
+    main .preguntas .contenedor-gridpreguntas div h3 {
+      font-size: 20px; }
+    main .preguntas .contenedor-gridpreguntas div p {
+      font-size: 20px;
+      text-align: center;
+      padding: 50px; }
+
+main .teoria {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  main .teoria div .img-texto {
+    display: flex;
+    flex-direction: center;
+    align-items: column; }
+    main .teoria div .img-texto img {
+      width: 350px;
+      height: 200px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: black 1px solid;
+      object-fit: cover;
+      box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+    main .teoria div .img-texto p {
+      margin-left: 50px;
+      margin-right: 50px; }
+
+.curiosidades .contenedor-lista .lista-curiosidades {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin: 40px; }
+  .curiosidades .contenedor-lista .lista-curiosidades ul li {
+    list-style-type: circle;
+    margin-top: 20px; }
+
+main .paradoja .contenedor-paradoja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px; }
+  main .paradoja .contenedor-paradoja div {
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #eeee; }
+    main .paradoja .contenedor-paradoja div img {
+      width: 400px;
+      height: 250px;
+      box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+
+main .cientificos .titulo-texto {
+  display: flex;
+  flex-direction: center;
+  align-items: column; }
+  main .cientificos .titulo-texto h3 {
+    display: flex;
+    flex-direction: center;
+    align-items: column; }
+    main .cientificos .titulo-texto h3 img {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: black 1px solid;
+      object-fit: cover;
+      box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+      -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+  main .cientificos .titulo-texto p {
+    margin-bottom: 50px; }
+
+.presentacion .registro {
+  margin: 100px;
+  border: black solid 2px;
+  padding: 30px;
+  background-color: rgba(98, 96, 96, 0.271); }
+  .presentacion .registro form .boton-iniciosesion {
+    background-color: #7A2B7A; }
+
+.indice .presentacion-outerlab p {
+  display: flex;
+  text-align: center;
+  margin: 60px;
+  font-size: 25px;
+  margin-left: auto; }
+
+.indice .division div {
+  margin-top: 40px; }
+  .indice .division div h3 {
+    font-size: 35px;
+    margin-left: 12%; }
+  .indice .division div ul li {
+    margin-left: 15%;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    list-style-type: decimal; }
+
+.acercadenos {
+  height: 600px; }
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 250px;
+  background-color: #7A2B7A;
+  text-align: center;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+  footer .footer-fondo section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    footer .footer-fondo section .footer-links {
+      display: flex;
+      display: inline-block;
+      flex-wrap: wrap;
+      width: 25%; }
+      footer .footer-fondo section .footer-links h4 a {
+        color: black; }
+      footer .footer-fondo section .footer-links p {
+        font-family: 'Dongle', sans-serif;
+        font-size: 25px;
+        padding-left: 50px;
+        text-align: center; }
+  footer .footer-fondo .footer-redes {
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end; }
+    footer .footer-fondo .footer-redes a img {
+      width: 60px;
+      height: 60px; }
+
+@media screen and (max-width: 900px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 650px) {
+  header nav ul {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 1480px) {
+  .hero {
+    background-image: url("../images/imagenes-del-espacio-exterior-sp.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; }
+    .hero p {
+      font-size: 22px;
+      margin-top: 40px;
+      margin-left: 40px;
+      font-family: 'Poppins', sans-serif; }
+  .bienvenidos img {
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; }
+  .bienvenidos .contenedor {
+    align-items: center;
+    margin-left: 90px;
+    display: flex; }
+  .preguntas .contenedor-gridpreguntas {
+    display: grid;
+    grid-template-rows: 390px 390px 390px 390px 390px 390px;
+    grid-template-columns: auto;
+    gap: 40px; }
+    .preguntas .contenedor-gridpreguntas div {
+      border: solid black 2px;
+      font-size: 15px;
+      padding: 30px;
+      text-align: center; }
+      .preguntas .contenedor-gridpreguntas div p {
+        font-size: 18px;
+        text-align: center;
+        padding: 30px; } }
+
+@media screen and (max-width: 800px) {
+  .bienvenidos .contenedor {
+    flex-direction: column;
+    align-items: center; }
+    .bienvenidos .contenedor img {
+      margin-right: 50px; } }
+
+@media screen and (max-width: 499px) {
+  .bienvenidos img {
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column; }
+  .bienvenidos .contenedor {
+    flex-direction: column;
+    align-items: center; }
+    .bienvenidos .contenedor p {
+      padding: 20px 0;
+      width: 80%;
+      margin: auto;
+      font-size: 14px;
+      margin-right: 50px; }
+  .preguntas .contenedor-gridpreguntas div p {
+    font-size: 15px;
+    text-align: center;
+    padding: 30px; } }
+
+@media screen and (max-width: 430px) {
+  .hero p {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif; }
+  .preguntas .contenedor-gridpreguntas {
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    grid-template-columns: auto;
+    gap: 30px; }
+    .preguntas .contenedor-gridpreguntas div h3 {
+      font-size: 15px; }
+    .preguntas .contenedor-gridpreguntas div p {
+      font-size: 10px;
+      text-align: center;
+      padding: 30px; } }
+
+@media screen and (max-width: 500px) {
+  .presentacion h2 {
+    font-size: 30px; }
+  .presentacion p {
+    font-size: 15px; }
+  .teoria h2 {
+    font-size: 30px; }
+  .teoria div .img-texto img {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 1px solid;
+    object-fit: cover;
+    box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+  .teoria div .img-texto p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px; } }
+
+@media screen and (max-width: 1150px) {
+  .paradoja .contenedor-paradoja {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px; } }
+
+@media screen and (max-width: 900px) {
+  .presentacion p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 650px) {
+  .paradoja h2 {
+    font-size: 25px; }
+  .paradoja div img {
+    width: 250px;
+    height: 170px;
+    box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+  .paradoja div p {
+    font-size: 13px; } }
+
+@media screen and (max-width: 400px) {
+  .cientificos h2 {
+    font-size: 30px; }
+  .cientificos p {
+    font-size: 15px; }
+  .cientificos .titulo-texto h3 img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 1px solid;
+    object-fit: cover;
+    box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -webkit-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 13px 14px 18px -1px rgba(0, 0, 0, 0.81); }
+  .cientificos .titulo-texto p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 700px) {
+  .indice .presentacion-outerlab p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 1450px) {
+  footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 240px;
+    background-color: #7A2B7A;
+    text-align: center;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+    footer .footer-fondo section .footer-links p {
+      font-family: 'Dongle', sans-serif;
+      font-size: 20px;
+      padding-left: 30px; } }
+
+@media screen and (max-width: 990px) {
+  footer {
+    margin-top: 170px;
+    width: 100%;
+    height: 290px;
+    background-color: #7A2B7A;
+    text-align: center;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+    footer .footer-fondo section .footer-links p {
+      font-family: 'Dongle', sans-serif;
+      font-size: 15px;
+      padding-left: 30px; }
+    footer .footer-fondo .footer-redes a img {
+      width: 50px;
+      height: 50px; } }
+
+@media screen and (max-width: 501px) {
+  footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 320px;
+    background-color: #7A2B7A;
+    text-align: center;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+    footer .footer-fondo section .footer-links h4 {
+      font-size: 13px; }
+    footer .footer-fondo .footer-redes a img {
+      width: 50px;
+      height: 50px; } }

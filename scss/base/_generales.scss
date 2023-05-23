@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 45px;
+    margin-top: 50px;
+    text-align: center;
+    color: #6F156F;
+    font-family: 'Bebas Neue', cursive ;
+    text-shadow: black 0px 0px 5px, black 0px 0px 10px, black 0px 0px 15px, violet 0px 0px 20px, violet 0px 0px 40px;
+    animation-name: tituloslide;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-iteration-count: initial;
+    animation: tituloslide 1.5s ease-in-out initial infinite;
+}
+@keyframes tituloslide{
+from{
+    margin-left: 100%;
+    width: 200%;
+}
+to{
+    margin-left: 0;
+    width: 100%;
+}
+}
+h3{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px ;
+}
+
+h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px ;
+}
+
+p{
+    font-family: 'Playfair Display', serif;;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 90% ;
+}
+
+.presentacion p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px ;
+}
+
+img{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
