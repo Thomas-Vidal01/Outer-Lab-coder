@@ -1,15 +1,13 @@
 <h1 align="center">Hola! Mi nombre es Thomas Vidal</h1>
-<h3 align="center">Tengo 22 años y esta es mi segunda entrega en el proyecto de Coderhouse como Desarrollador Web</h3>
+<h3 align="center">Tengo 22 años y esta es mi tercera pre-entrega en el proyecto de Coderhouse como Desarrollador Web</h3>
 
 - Para esta nueva entrega aplique muchas de las habilidades que han ido enseñando en las ultimas clases **Presentacion**
 
-- Además está el Grids, que lo pude usar en el index, más específicamente en la parte de "Preguntas Frecuentes", y en la sección "Paradojas", que aparecerá como opción en el header. **Grid**
+- Pasé todo el css hacia el scss dejando mucho mas limpio el código. **Grid**
 
 - Inclui las correcciones que se me habian hecho en el trabajo pasado para mejorar el sitio, y ademas pude utilizar todas las nuevas herramientas que nos han enseñado **Segunda presentacion**
 
-- Dentro de lo que inclui para esta nueva entrega esta la parte de flexbox, que gran parte del proyecto esta hecho con el, ya que me senti muy comodo utilizandolo **Flexbox**
-
-- Bootstrap fue lo que más me costó meter dentro del proyecto, ya que modificaba todo lo que habia hecho anteriormente. De igual manera pude utilizarlo para el registro, en la sección de "Contáctanos". **Bootstrap**
+- Dentro de lo que inclui para esta nueva entrega esta la parte de variables, que no utilicé mucho porque crei que asi estaba bien 
 
 - Por último estan las media queries, las cuales en un principio pense que serian dificiles de manejar, pero me fui acostumbrando y pude aplicarla en la mayoría de las páginas del sitio para que quede prácticamente en su totalidad responsive. **Media querie**
 
